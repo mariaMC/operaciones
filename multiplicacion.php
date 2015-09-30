@@ -1,8 +1,6 @@
 <?php
-
-$a=5;
-$b=2;
-
-$multiplicacion = $a * $b;
-echo "el total es: $multiplicacion";
+function multiplicar($a,$b){
+	return $a * $b; 
+}
+echo "Resultado: ".multiplicar(9,2);
 ?>
